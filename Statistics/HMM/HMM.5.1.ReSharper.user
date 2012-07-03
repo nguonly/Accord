@@ -1,0 +1,94 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:TableSelectDialog.cs" caret="0" fromTop="0" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:ExcelReader.cs" caret="0" fromTop="0" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Analysis/d:Performance/f:GeneralConfusionMatrix.cs" caret="3839" fromTop="0" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Analysis/d:Performance/f:ConfusionMatrix.cs" caret="4277" fromTop="24" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:MainForm.cs" caret="5301" fromTop="15" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Testing/d:TwoSample/f:TwoSampleTTest.cs" caret="0" fromTop="0" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:Program.cs" caret="576" fromTop="21" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Learning/d:Base/f:BaseHiddenMarkovClassifierLearning.cs" caret="5087" fromTop="11" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Learning/d:Base/f:BaseBaumWelchLearning.cs" caret="10207" fromTop="18" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/f:ForwardBackwardAlgorithm.cs" caret="18559" fromTop="23" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Topology/f:Custom.cs" caret="5479" fromTop="18" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/f:HiddenMarkovModel.cs" caret="15158" fromTop="218" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Learning/f:BaumWelchLearning.cs" caret="5155" fromTop="72" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Learning/f:HiddenMarkovClassifierLearning.cs" caret="4834" fromTop="0" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1540" fromTop="17" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Topology/f:Ergodic.cs" caret="3307" fromTop="6" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/f:HiddenMarkovClassifier.cs" caret="6504" fromTop="80" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Base/f:BaseHiddenMarkovClassifier.cs" caret="1386" fromTop="0" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Topology/f:ITopology.cs" caret="0" fromTop="0" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/d:Topology/f:Forward.cs" caret="4403" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="2402" fromTop="19" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="439" fromTop="0" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1893" fromTop="20" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:Program.cs" caret="488" fromTop="19" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/f:ForwardBackwardAlgorithm.cs" caret="18299" fromTop="22" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1374" fromTop="9" />
+      <File id="FD8101DD-C95D-42D6-AD44-AE01C25F2811/d:Models/d:Markov/f:HiddenMarkovModel.cs" caret="3295" fromTop="29" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1374" fromTop="6" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1899" fromTop="16" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="2095" fromTop="25" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1830" fromTop="16" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="2190" fromTop="25" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1568" fromTop="8" />
+      <File id="E6CEA943-9111-4CCD-97BD-A63F7DDABBAE/f:WordSeg.cs" caret="1410" fromTop="7" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="var" priority="8" />
+      <Item value="new" priority="8" />
+      <Item value="_hmmc" priority="3" />
+      <Item value="sequences" priority="0" />
+      <Item value="int" priority="2" />
+      <Item value="teacher" priority="1" />
+      <Item value="observations" priority="0" />
+      <Item value="logB" priority="0" />
+      <Item value="i" priority="2" />
+      <Item value="lnFwd" priority="0" />
+      <Item value="logPi" priority="0" />
+      <Item value="Message`0" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="label" priority="0" />
+      <Item value="likelihood" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Accord.Statistics.Models.Markov.Learning.HiddenMarkovClassifierLearning">
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Accord.Statistics.Models.Markov.HiddenMarkovClassifier">
+      <Item value="Models" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Accord.Statistics.Models.Markov.HiddenMarkovModel">
+      <Item value="Tag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="FD8101DD-C95D-42D6-AD44-AE01C25F2811" ModuleId="Accord.Statistics" />
+  <Module PersistentId="F718E9A8-DB62-4785-8C49-4333A60D256A" ModuleId="Accord.Math" />
+  <Module PersistentId="A177A90C-8207-466A-AF70-F2B8452A42AC" ModuleId="Accord.Core" />
+</Modules>

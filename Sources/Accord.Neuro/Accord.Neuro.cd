@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Accord.Neuro.Learning.LevenbergMarquardtLearning" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.75" Width="3.25" />
+    <Members>
+      <Field Name="alpha" Hidden="true" />
+      <Field Name="beta" Hidden="true" />
+      <Field Name="blocks" Hidden="true" />
+      <Method Name="CalculateDerivatives" Hidden="true" />
+      <Method Name="ComputeDerivative" Hidden="true" />
+      <Method Name="createCoefficients" Hidden="true" />
+      <Field Name="deltas" Hidden="true" />
+      <Field Name="derivativeStep" Hidden="true" />
+      <Field Name="derivativeStepSize" Hidden="true" />
+      <Field Name="diagonal" Hidden="true" />
+      <Field Name="differentialCoefficients" Hidden="true" />
+      <Field Name="errors" Hidden="true" />
+      <Field Name="gamma" Hidden="true" />
+      <Method Name="getNumberOfParameters" Hidden="true" />
+      <Field Name="gradient" Hidden="true" />
+      <Field Name="hessian" Hidden="true" />
+      <Field Name="jacobian" Hidden="true" />
+      <Method Name="JacobianByChainRule" Hidden="true" />
+      <Method Name="JacobianByFiniteDifference" Hidden="true" />
+      <Field Name="lambda" Hidden="true" />
+      <Field Name="lambdaMax" Hidden="true" />
+      <Field Name="method" Hidden="true" />
+      <Field Name="network" Hidden="true" />
+      <Field Name="numberOfParameters" Hidden="true" />
+      <Field Name="outputCount" Hidden="true" />
+      <Field Name="thresholdsDerivatives" Hidden="true" />
+      <Field Name="useBayesianRegularization" Hidden="true" />
+      <Field Name="v" Hidden="true" />
+      <Field Name="weightDerivatives" Hidden="true" />
+      <Field Name="weights" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAUEACAIAAIAACAASAEAJABAAAYIRbiCBDAQQmAQBAo=</HashCode>
+      <FileName>Learning\LevenbergMarquardtLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Neuro.NguyenWidrow">
+    <Position X="0.75" Y="1" Width="2" />
+    <Members>
+      <Field Name="beta" Hidden="true" />
+      <Field Name="network" Hidden="true" />
+      <Field Name="randRange" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAABACAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>NguyenWidrow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Neuro.Learning.ResilientBackpropagationLearning">
+    <Position X="7.5" Y="1" Width="2.75" />
+    <Members>
+      <Method Name="CalculateError" Hidden="true" />
+      <Method Name="CalculateGradient" Hidden="true" />
+      <Field Name="deltaMax" Hidden="true" />
+      <Field Name="deltaMin" Hidden="true" />
+      <Field Name="etaMinus" Hidden="true" />
+      <Field Name="etaPlus" Hidden="true" />
+      <Field Name="initialStep" Hidden="true" />
+      <Field Name="lockNetwork" Hidden="true" />
+      <Field Name="network" Hidden="true" />
+      <Field Name="networkErrors" Hidden="true" />
+      <Field Name="networkOutputs" Hidden="true" />
+      <Method Name="ResetGradient" Hidden="true" />
+      <Field Name="thresholdsDerivatives" Hidden="true" />
+      <Field Name="thresholdsPreviousDerivatives" Hidden="true" />
+      <Field Name="thresholdsUpdates" Hidden="true" />
+      <Method Name="UpdateNetwork" Hidden="true" />
+      <Field Name="weightsDerivatives" Hidden="true" />
+      <Field Name="weightsPreviousDerivatives" Hidden="true" />
+      <Field Name="weightsUpdates" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CIQAAkEABCQABAAQgAQAAgAAAAIAgAgAZIBUAAABAAo=</HashCode>
+      <FileName>Learning\ResilientBackPropagationLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Neuro.LinearFunction">
+    <Position X="12" Y="1.25" Width="2.5" />
+    <Members>
+      <Field Name="alpha" Hidden="true" />
+      <Field Name="range" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIEAAACAAAAAAAAAIAAAAAABAAAAAQBAAAAAA=</HashCode>
+      <FileName>Activation Functions\LinearFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="Accord.Neuro.Learning.JacobianMethod">
+    <Position X="0.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Learning\LevenbergMarquardtLearning.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

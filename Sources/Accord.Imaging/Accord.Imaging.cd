@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Accord.Imaging.CorrelationMatching">
+    <Position X="4" Y="1" Width="2.75" />
+    <Members>
+      <Field Name="dmax" Hidden="true" />
+      <Field Name="windowSize" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAgAAAgAAAAAAIAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>CorrelationMatching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.HarrisCornersDetector" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="8" Width="2.75" />
+    <Members>
+      <Method Name="convolve" Hidden="true" />
+      <Method Name="createGaussian" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Field Name="k" Hidden="true" />
+      <Field Name="kernel" Hidden="true" />
+      <Field Name="measure" Hidden="true" />
+      <Field Name="r" Hidden="true" />
+      <Field Name="sigma" Hidden="true" />
+      <Field Name="size" Hidden="true" />
+      <Field Name="threshold" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAIAAAAIEAAAAAABQAACAQgAAhAIAAIAI=</HashCode>
+      <FileName>Interest Points\HarrisCornersDetector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Imaging.RansacHomographyEstimator">
+    <Position X="7" Y="1" Width="2.25" />
+    <Members>
+      <Method Name="degenerate" Hidden="true" />
+      <Method Name="distance" Hidden="true" />
+      <Method Name="homography" Hidden="true" />
+      <Field Name="inliers" Hidden="true" />
+      <Field Name="pointSet1" Hidden="true" />
+      <Field Name="pointSet2" Hidden="true" />
+      <Field Name="ransac" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAACAggAAAAEAAAAFAAAAEABAAAAAAAAAA=</HashCode>
+      <FileName>RansacHomographyEstimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Tools">
+    <Position X="0.75" Y="0.75" Width="2.5" />
+    <Members>
+      <Field Name="SQRT2" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIgJAAAAACEQABBAEAAAAEAAAEAAAAgACIAAU=</HashCode>
+      <FileName>Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Filters.Blend">
+    <Position X="19.5" Y="4" Width="2" />
+    <Members>
+      <Field Name="center" Hidden="true" />
+      <Field Name="fillColor" Hidden="true" />
+      <Field Name="formatTranslations" Hidden="true" />
+      <Field Name="homography" Hidden="true" />
+      <Field Name="imageSize" Hidden="true" />
+      <Field Name="offset" Hidden="true" />
+      <Field Name="overlayImage" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAiAAAAMAABADAAAQAAACAAAYEAAAAAACAwAAggAAAA=</HashCode>
+      <FileName>Filters\Blend.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Filters.Concatenate">
+    <Position X="17.25" Y="4" Width="2" />
+    <Members>
+      <Field Name="formatTranslations" Hidden="true" />
+      <Field Name="overlayImage" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAQAAAAAAAAAwAAgAAAAA=</HashCode>
+      <FileName>Filters\Concatenate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Filters.PointsMarker">
+    <Position X="12.25" Y="4" Width="2.25" />
+    <Members>
+      <Field Name="formatTranslations" Hidden="true" />
+      <Field Name="markerColor" Hidden="true" />
+      <Field Name="points" Hidden="true" />
+      <Field Name="width" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAggAAAQAAACEAAQAAgAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Filters\PointsMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Filters.PairsMarker">
+    <Position X="9.5" Y="4" Width="2.25" />
+    <Members>
+      <Field Name="formatTranslations" Hidden="true" />
+      <Field Name="markerColor" Hidden="true" />
+      <Field Name="points1" Hidden="true" />
+      <Field Name="points2" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAAAAgAAAAAAAACAAAQAAgAAAAAAQAAAMAAAA=</HashCode>
+      <FileName>Filters\PairsMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.IntegralImage2">
+    <Position X="22.75" Y="7.75" Width="2.25" />
+    <Members>
+      <Method Name="~IntegralImage2" Hidden="true" />
+      <Field Name="height" Hidden="true" />
+      <Field Name="width" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJIgAABADCEAABQAQAAAAEQAAAAABBQBBAAGBgAgAIA=</HashCode>
+      <FileName>IntegralImage2.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Imaging.MatrixH">
+    <Position X="3.75" Y="5.75" Width="2.5" />
+    <Members>
+      <Field Name="elements" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAIAABFAAoAIRAAAAAAIAAIDAQAAAAAigAAA=</HashCode>
+      <FileName>MatrixH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Filters.WaveletTransform">
+    <Position X="22.5" Y="4" Width="2.5" />
+    <Members>
+      <Field Name="backward" Hidden="true" />
+      <Field Name="formatTranslations" Hidden="true" />
+      <Field Name="wavelet" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAACAAAAAgAAAAAAACAAAQAAAAAAAAAQAAAAIAAA=</HashCode>
+      <FileName>Filters\WaveletTransform.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.FastCornersDetector">
+    <Position X="7.25" Y="8.25" Width="2.75" />
+    <Members>
+      <Method Name="detect" Hidden="true" />
+      <Method Name="makeOffsets" Hidden="true" />
+      <Method Name="maximum" Hidden="true" />
+      <Method Name="score" Hidden="true" />
+      <Field Name="scores" Hidden="true" />
+      <Field Name="suppress" Hidden="true" />
+      <Field Name="threshold" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAIAkQAAAAAgAAAAIAAAAAAAAACAAAAAhAAAAAAA=</HashCode>
+      <FileName>Interest Points\FastCornersDetector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Imaging.SpeededUpRobustFeaturesDetector" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="8" Width="3.5" />
+    <Members>
+      <Method Name="ICornersDetector.ProcessImage" Hidden="true" />
+      <Field Name="initial" Hidden="true" />
+      <Field Name="integral" Hidden="true" />
+      <Method Name="interpolate" Hidden="true" />
+      <Field Name="octaves" Hidden="true" />
+      <Field Name="responses" Hidden="true" />
+      <Field Name="threshold" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Accord.Imaging.SpeededUpRobustFeaturesDetector.ResponseFilters" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpeededUpRobustFeaturesDetector.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+      <Class Name="Accord.Imaging.SpeededUpRobustFeaturesDetector.ResponseLayer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpeededUpRobustFeaturesDetector.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAEAAAABAAAEBCABIAAhAAAAAAA=</HashCode>
+      <FileName>Interest Points\SpeededUpRobustFeaturesDetector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Imaging.SurfPoint">
+    <Position X="20.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAUBAAAAAAAIAAAAAAAAAAAAAAAAAAAEAYAA=</HashCode>
+      <FileName>Interest Points\SurfPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.SurfDescriptor">
+    <Position X="18" Y="8" Width="2" />
+    <Members>
+      <Field Name="extended" Hidden="true" />
+      <Field Name="gauss25" Hidden="true" />
+      <Method Name="gaussian" Hidden="true" />
+      <Method Name="haarX" Hidden="true" />
+      <Method Name="haarY" Hidden="true" />
+      <Field Name="integral" Hidden="true" />
+      <Field Name="invariant" Hidden="true" />
+      <Field Name="PI" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAgAAAAAAAAAAQAQJhCBAAAggACAAAA=</HashCode>
+      <FileName>Interest Points\SurfDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Filters.FeaturesMarker">
+    <Position X="15" Y="4" Width="1.5" />
+    <Members>
+      <Field Name="points" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\FeatureMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Imaging.Moments.CentralMoments">
+    <Position X="0.5" Y="12.75" Width="2.75" />
+    <Members>
+      <Field Name="invM00" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEDAAQAAAAABAACBAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Moments\CentralMoments.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Imaging.Moments.RawMoments">
+    <Position X="3.75" Y="12.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAEABAAAGAAAACAAAAAAABIAAAAAAQAAAAA=</HashCode>
+      <FileName>Moments\RawMoments.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Imaging.BorderFollowing">
+    <Position X="8" Y="12.75" Width="2.5" />
+    <Members>
+      <Method Name="CheckPixelFormat" Hidden="true" />
+      <Field Name="nextDirection" Hidden="true" />
+      <Field Name="positionOffset" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAIAAACAAAAAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Contour\BorderFollowing.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="Accord.Imaging.PointH">
+    <Position X="0.75" Y="5.5" Width="2.5" />
+    <Members>
+      <Field Name="Empty" Hidden="true" />
+      <Field Name="pw" Hidden="true" />
+      <Field Name="px" Hidden="true" />
+      <Field Name="py" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAJAAAAAAAAAAACA8AMDAAcAAABAgIAAgAAAAEJIYiA=</HashCode>
+      <FileName>PointH.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Accord.Imaging.IContourExtractionAlgorithm">
+    <Position X="10.75" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contour\IContourExtractionAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

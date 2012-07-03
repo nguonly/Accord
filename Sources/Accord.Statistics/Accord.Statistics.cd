@@ -1,0 +1,2341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Accord.Statistics.Analysis.ConfusionMatrix">
+    <Position X="1" Y="11.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEABAABEAEAACYAggABASgBIEAAEgDACAIAgA=</HashCode>
+      <FileName>Analysis\Performance\ConfusionMatrix.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.DescriptiveAnalysis">
+    <Position X="5" Y="10.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AGgAACAIAgAiCAAAEIACECCARjACA0YgwAYAAMEEgAA=</HashCode>
+      <FileName>Analysis\DescriptiveAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Measures" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.KernelPrincipalComponentAnalysis">
+    <Position X="12" Y="16.5" Width="3.5" />
+    <Members>
+      <Method Name="centerKernel" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAgAAQAAAAAAAAAAAAQAAAAAACAAAAAgAgEaAAI=</HashCode>
+      <FileName>Analysis\KernelPrincipalComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.LinearDiscriminantAnalysis">
+    <Position X="20.5" Y="11.5" Width="2.25" />
+    <Members>
+      <Field Name="classCollection" Hidden="true" />
+      <Field Name="classCount" Hidden="true" />
+      <Property Name="ClassCount" Hidden="true" />
+      <Field Name="classes" Hidden="true" />
+      <Field Name="classMeans" Hidden="true" />
+      <Property Name="ClassMeans" Hidden="true" />
+      <Field Name="classScatter" Hidden="true" />
+      <Property Name="ClassScatter" Hidden="true" />
+      <Property Name="ClassStandardDeviations" Hidden="true" />
+      <Field Name="classStdDevs" Hidden="true" />
+      <Method Name="CreateDiscriminants" Hidden="true" />
+      <Field Name="dimension" Hidden="true" />
+      <Field Name="discriminantCollection" Hidden="true" />
+      <Field Name="discriminantCumulative" Hidden="true" />
+      <Method Name="DiscriminantFunction" Hidden="true" />
+      <Field Name="discriminantProportions" Hidden="true" />
+      <Field Name="eigenvalues" Hidden="true" />
+      <Field Name="eigenvectors" Hidden="true" />
+      <Field Name="outputs" Hidden="true" />
+      <Field Name="result" Hidden="true" />
+      <Field Name="Sb" Hidden="true" />
+      <Field Name="source" Hidden="true" />
+      <Field Name="St" Hidden="true" />
+      <Field Name="Sw" Hidden="true" />
+      <Field Name="totalMeans" Hidden="true" />
+      <Field Name="totalStdDevs" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAACAEBgEoBAYDBAQQFgRBLFTAAQAAgAAFJAQCAAA=</HashCode>
+      <FileName>Analysis\LinearDiscriminantAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Discriminants" />
+      <Property Name="Classes" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.PrincipalComponentAnalysis">
+    <Position X="12.25" Y="11" Width="3" />
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAACAABgAgAIaILAAgAAUBBAAAKQAAIAAAAAAQEAA=</HashCode>
+      <FileName>Analysis\PrincipalComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Components" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.PrincipalComponent">
+    <Position X="16.5" Y="11.5" Width="2" />
+    <Members>
+      <Field Name="index" Hidden="true" />
+      <Field Name="principalComponentAnalysis" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgEAAAAAIAAAAAAAAAEAAAAAEABABBAAA=</HashCode>
+      <FileName>Analysis\PrincipalComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.ReceiverOperatingCharacteristic">
+    <Position X="5" Y="17.75" Width="2.5" />
+    <Members>
+      <Field Name="area" Hidden="true" />
+      <Method Name="calculateAreaUnderCurve" Hidden="true" />
+      <Method Name="calculateStandardError" Hidden="true" />
+      <Field Name="collection" Hidden="true" />
+      <Field Name="dfalse" Hidden="true" />
+      <Field Name="dtrue" Hidden="true" />
+      <Field Name="error" Hidden="true" />
+      <Field Name="measurement" Hidden="true" />
+      <Field Name="negativeCount" Hidden="true" />
+      <Field Name="positiveCount" Hidden="true" />
+      <Field Name="prediction" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BMEAgAABAAAAgQAEIEEQAAAAAAAAABAAAADAAQiAAAU=</HashCode>
+      <FileName>Analysis\Performance\ReceiverOperatingCharacteristic.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Points" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Gaussian" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAgAAAAAAAIAABAAAABQAAAAAAABAAA=</HashCode>
+      <FileName>Kernels\Gaussian.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Linear" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAhAAAAIAAAAAAA=</HashCode>
+      <FileName>Kernels\Linear.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Polynomial" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIQAAAAEAhAAAAIAAAAAAA=</HashCode>
+      <FileName>Kernels\Polynomial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Regression.Linear.MultivariateLinearRegression">
+    <Position X="23" Y="26" Width="3.25" />
+    <Members>
+      <Field Name="coefficients" Hidden="true" />
+      <Method Name="ILinearRegression.Compute" Hidden="true" />
+      <Field Name="insertConstant" Hidden="true" />
+      <Field Name="intercepts" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAAgAAAIAAAQAAAEEAAADAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Regression\Linear\MultivariateLinearRegression.cs</FileName>
+      <NewMemberFileName>Models\Regression\Linear\MultipleLinearRegression.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Regression.Linear.PolynomialRegression">
+    <Position X="27.5" Y="26.75" Width="3.25" />
+    <Members>
+      <Method Name="ILinearRegression.Compute" Hidden="true" />
+    </Members>
+    <AssociationLine Name="regression" Type="Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="29.125" Y="26.75" />
+        <Point X="29.125" Y="25.216" />
+        <Point X="29.75" Y="25.216" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.384" Y="0.17" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAAAgAAEAAAAAAAQAEAAADAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Regression\Linear\PolynomialRegression.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="regression" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Regression.Linear.SimpleLinearRegression">
+    <Position X="31.25" Y="26.75" Width="3.25" />
+    <Members>
+      <Method Name="ILinearRegression.Compute" Hidden="true" />
+    </Members>
+    <AssociationLine Name="regression" Type="Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="33.375" Y="26.75" />
+        <Point X="33.375" Y="24.807" />
+        <Point X="32.75" Y="24.807" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.224" Y="0.164" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAAAgAAEAAAAAAAAAAAAADAAAAAAAgAAAEA=</HashCode>
+      <FileName>Models\Regression\Linear\SimpleLinearRegression.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="regression" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Regression.LogisticRegression" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="23.5" Width="2.5" />
+    <Members>
+      <Field Name="coefficients" Hidden="true" />
+      <Field Name="standardErrors" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAACAQAAACQIAIEEAAAAAAYAAABEAAABA=</HashCode>
+      <FileName>Models\Regression\Nonlinear\LogisticRegression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Tools">
+    <Position X="0.75" Y="0.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQDAAkAAAIABhAgAAIADAAIwhCAABgEEgAAAACAIEAQ=</HashCode>
+      <FileName>Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Visualizations.Histogram">
+    <Position X="30" Y="2.75" Width="2" />
+    <Members>
+      <Field Name="binCollection" Hidden="true" />
+      <Field Name="binRanges" Hidden="true" />
+      <Field Name="binValues" Hidden="true" />
+      <Method Name="compute" Hidden="true" />
+      <Method Name="computeNumberOfBins" Hidden="true" />
+      <Field Name="cumulative" Hidden="true" />
+      <Field Name="inclusiveUpperBound" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Field Name="rule" Hidden="true" />
+      <Field Name="title" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAgwAAgYQQACEAASAEAAAAgACAAEAAACAAgAARAAAA=</HashCode>
+      <FileName>Visualizations\Histogram.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Bins" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Accord.Statistics.Visualizations.HistogramBin">
+    <Position X="27.75" Y="3" Width="1.5" />
+    <Members>
+      <Field Name="histogram" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAgAEAAAAAAAAAAAAAgAAARAAA=</HashCode>
+      <FileName>Visualizations\Histogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.ReceiverOperatingCharacteristicPoint">
+    <Position X="1" Y="18.25" Width="2.75" />
+    <Members>
+      <Field Name="cutoff" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAgAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Analysis\Performance\ReceiverOperatingCharacteristic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.DescriptiveMeasures">
+    <Position X="8.75" Y="10.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAJAAAAAAEIACAARABAAAAAAkgAEAAAABAAQ=</HashCode>
+      <FileName>Analysis\DescriptiveAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.PartialLeastSquaresAnalysis">
+    <Position X="16.75" Y="20.25" Width="3" />
+    <Members>
+      <Method Name="Adjust" Hidden="true" />
+      <Field Name="algorithm" Hidden="true" />
+      <Field Name="analysisMethod" Hidden="true" />
+      <Field Name="coeffbase" Hidden="true" />
+      <Field Name="componentProportionX" Hidden="true" />
+      <Field Name="componentProportionY" Hidden="true" />
+      <Method Name="ComputeVariableImportanceInProjection" Hidden="true" />
+      <Field Name="cumulativeProportionX" Hidden="true" />
+      <Field Name="cumulativeProportionY" Hidden="true" />
+      <Field Name="factorCollection" Hidden="true" />
+      <Field Name="inputVariables" Hidden="true" />
+      <Method Name="largest" Hidden="true" />
+      <Field Name="loadingsX" Hidden="true" />
+      <Field Name="loadingsY" Hidden="true" />
+      <Field Name="meanX" Hidden="true" />
+      <Field Name="meanY" Hidden="true" />
+      <Method Name="nipals" Hidden="true" />
+      <Field Name="outputVariables" Hidden="true" />
+      <Field Name="scoresX" Hidden="true" />
+      <Field Name="scoresY" Hidden="true" />
+      <Method Name="simpls" Hidden="true" />
+      <Field Name="sourceX" Hidden="true" />
+      <Field Name="sourceY" Hidden="true" />
+      <Field Name="stdDevX" Hidden="true" />
+      <Field Name="stdDevY" Hidden="true" />
+      <Field Name="vip" Hidden="true" />
+      <Field Name="weights" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Predictors" Type="Accord.Statistics.Analysis.PartialLeastSquaresVariables">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.158" Y="0.123" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Dependents" Type="Accord.Statistics.Analysis.PartialLeastSquaresVariables">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.126" Y="0.108" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BFBAAAABigBAgAaqJBQoBAUIAAAAbgAAElgEAAQAACA=</HashCode>
+      <FileName>Analysis\PartialLeastSquaresAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Predictors" />
+      <Property Name="Dependents" />
+      <Property Name="Algorithm" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Factors" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.PartialLeastSquaresFactor">
+    <Position X="21" Y="20" Width="3.25" />
+    <Members>
+      <Field Name="analysis" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Internal" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAABAAAAAAAABAAAAAAgAAAAAAAAAAAMAhEABAAQ=</HashCode>
+      <FileName>Analysis\PartialLeastSquaresAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Regression.Linear.MultipleLinearRegression">
+    <Position X="29.75" Y="23.5" Width="3" />
+    <Members>
+      <Field Name="coefficients" Hidden="true" />
+      <Method Name="ILinearRegression.Compute" Hidden="true" />
+      <Field Name="insertConstant" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAgAAEIAAAQAAAEEAAADAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Regression\Linear\MultipleLinearRegression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.KernelDiscriminantAnalysis">
+    <Position X="20.5" Y="17" Width="2.25" />
+    <Members>
+      <Field Name="kernel" Hidden="true" />
+      <Field Name="regularization" Hidden="true" />
+      <Field Name="threshold" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAACAAAAAgQAAAAAACAAAAAgAgAAAAI=</HashCode>
+      <FileName>Analysis\KernelDiscriminantAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.Discriminant">
+    <Position X="24.25" Y="15.25" Width="2.25" />
+    <Members>
+      <Field Name="analysis" Hidden="true" />
+      <Method Name="Discriminant" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAEAAAAAEAAABBAAQ=</HashCode>
+      <FileName>Analysis\LinearDiscriminantAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.DiscriminantAnalysisClass">
+    <Position X="24.25" Y="11.5" Width="2.25" />
+    <Members>
+      <Field Name="analysis" Hidden="true" />
+      <Field Name="classNumber" Hidden="true" />
+      <Method Name="DiscriminantAnalysisClass" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAQAAEAAAAAAAEAAEAQABAAgAAAEAAEEAAABAAQ=</HashCode>
+      <FileName>Analysis\LinearDiscriminantAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Filters.FiltersSequence" BaseTypeListCollapsed="true">
+    <Position X="22" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\FilterSequence.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.ColumnOptionCollection&lt;T&gt;">
+    <Position X="8.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Base\BaseFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Testing.ChiSquareTest">
+    <Position X="84" Y="20.25" Width="2.25" />
+    <Members>
+      <Field Name="distribution" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\ChiSquareTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.ZTest">
+    <Position X="81" Y="20.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\ZTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.HypothesisTest">
+    <Position X="89.5" Y="16" Width="2" />
+    <Members>
+      <Field Name="hypothesis" Hidden="true" />
+      <Field Name="pvalue" Hidden="true" />
+      <Field Name="statistic" Hidden="true" />
+      <Field Name="threshold" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAgAAgAMAAAgAAAAIAAAACAAAAAgAAAAgAA=</HashCode>
+      <FileName>Testing\Base\HypothesisTest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Hypothesis" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.WaldTest">
+    <Position X="81" Y="22.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Testing\WaldTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Additive" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAUAAAAFAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Additive.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Wave" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Wave.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Bessel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAAAAAAAAAAIAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Bessel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.BSpline" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\BSpline.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Cauchy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Cauchy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.ChiSquare" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\ChiSquare.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Circular" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAIAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Circular.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Laplacian" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAgAAAAAAAIAABAAAABQAAAAAAABAAA=</HashCode>
+      <FileName>Kernels\Laplacian.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Log" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIQAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Log.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Multiquadric" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>Kernels\Multiquadric.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Power" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIQAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Power.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.RationalQuadratic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>Kernels\RationalQuadratic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Sigmoid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAIAAAAAABgAAAAYAAAAAAQ=</HashCode>
+      <FileName>Kernels\Sigmoid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Spherical" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="38.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Spherical.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Spline" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Spline.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Tensor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Tensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.TStudent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="40.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIQAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\TStudent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.BaseFilter&lt;T&gt;">
+    <Position X="12" Y="1.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAACAAAAAAAAAAgAAAAAAgAAAA=</HashCode>
+      <FileName>Filters\Base\BaseFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.ColumnOptionsBase">
+    <Position X="6.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Base\BaseFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Anova" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEEAAAIAAAAI=</HashCode>
+      <FileName>Kernels\Anova.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.HistogramIntersection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="35.25" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAIAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Kernels\HistogramIntersection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.DynamicTimeWarping" Collapsed="true">
+    <Position X="37.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAZQAAAAEBAEAAAQBAAAAAA=</HashCode>
+      <FileName>Kernels\DynamicTimeWarping.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Wavelet" Collapsed="true">
+    <Position X="37" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAgAAAIACAACAAAAAAIAAAAAAACAQAAAgAAAAAA=</HashCode>
+      <FileName>Kernels\Wavelet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.ChiSquareDistribution" Collapsed="true">
+    <Position X="53" Y="25.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAGAQAAABAIAAAACAAAEgAAAIAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\ChiSquareDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.Mixture&lt;T&gt;" Collapsed="true">
+    <Position X="50.25" Y="25.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIiAAAGARAIQAEQAAAAEgAAAIIAQIBA=</HashCode>
+      <FileName>Distributions\Univariate\Mixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.HiddenMarkovModel">
+    <Position X="3.25" Y="38.5" Width="3.5" />
+    <Members>
+      <Method Name="IHiddenMarkovModel.Decode" Hidden="true" />
+      <Method Name="IHiddenMarkovModel.Evaluate" Hidden="true" />
+      <Field Name="symbols" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQgAEAAQAhAAAAwAAAAAgAAAAAAAAAAAAAAQAAAAAg=</HashCode>
+      <FileName>Models\Markov\HiddenMarkovModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.UnivariateContinuousDistribution">
+    <Position X="55.25" Y="20.25" Width="3" />
+    <Members>
+      <Method Name="IDistribution.DistributionFunction" Hidden="true" />
+      <Method Name="IDistribution.Fit" Hidden="true" />
+      <Method Name="IDistribution.LogProbabilityFunction" Hidden="true" />
+      <Method Name="IDistribution.ProbabilityFunction" Hidden="true" />
+      <Method Name="IUnivariateDistribution.LogProbabilityFunction" Hidden="true" />
+      <Method Name="IUnivariateDistribution.ProbabilityFunction" Hidden="true" />
+      <Method Name="UnivariateContinuousDistribution" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAIAEAAmCAAAABAIIBAIAAAAEgAAAIAAAIBQ=</HashCode>
+      <FileName>Distributions\Univariate\Base\UnivariateContinuousDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Multivariate.MultivariateContinuousDistribution">
+    <Position X="67.25" Y="20.25" Width="2.75" />
+    <Members>
+      <Method Name="Clone" Hidden="true" />
+      <Field Name="dimension" Hidden="true" />
+      <Method Name="IDistribution.Fit" Hidden="true" />
+      <Method Name="IDistribution.ProbabilityFunction" Hidden="true" />
+      <Method Name="MultivariateContinuousDistribution" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAAGAAIAABABAAAIAQAAEgAAAIAAAIBQ=</HashCode>
+      <FileName>Distributions\Multivariate\Base\MultivariateContinuousDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Multivariate.MultivariateDiscreteDistribution">
+    <Position X="66.75" Y="10.5" Width="2.5" />
+    <Members>
+      <Field Name="dimension" Hidden="true" />
+      <Method Name="IDistribution.ComplementaryDistributionFunction" Hidden="true" />
+      <Method Name="IDistribution.DistributionFunction" Hidden="true" />
+      <Method Name="IDistribution.Fit" Hidden="true" />
+      <Method Name="IDistribution.LogProbabilityFunction" Hidden="true" />
+      <Method Name="IDistribution.ProbabilityFunction" Hidden="true" />
+      <Method Name="MultivariateDiscreteDistribution" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAIAAAAmAAIAAMABIAAIAQAAEgAAAAAAAIBQ=</HashCode>
+      <FileName>Distributions\Multivariate\Base\MultivariateDiscreteDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Multivariate.MultinomialDistribution" Collapsed="true">
+    <Position X="65.25" Y="15.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAAABAAAAgACAAIEAMAAAAAQAAAAEgAAACJAAIRA=</HashCode>
+      <FileName>Distributions\Multivariate\Discrete\MultinomialDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.UnivariateDiscreteDistribution">
+    <Position X="55.25" Y="10.25" Width="2.5" />
+    <Members>
+      <Method Name="IDistribution.DistributionFunction" Hidden="true" />
+      <Method Name="IDistribution.Fit" Hidden="true" />
+      <Method Name="IDistribution.LogProbabilityFunction" Hidden="true" />
+      <Method Name="IDistribution.ProbabilityFunction" Hidden="true" />
+      <Method Name="IUnivariateDistribution.DistributionFunction" Hidden="true" />
+      <Method Name="IUnivariateDistribution.LogProbabilityFunction" Hidden="true" />
+      <Method Name="IUnivariateDistribution.ProbabilityFunction" Hidden="true" />
+      <Method Name="UnivariateDiscreteDistribution" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Protected" Collapsed="true" />
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgQAIAEAAmCAAAAMAIIBAIAgAAEgAAAAAAAIBY=</HashCode>
+      <FileName>Distributions\Univariate\Base\UnivariateDiscreteDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.BernoulliDistribution" Collapsed="true">
+    <Position X="53.75" Y="15.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAACAgAEAMAIAAAACAAAEgAAAAAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Discrete\BernoulliDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.GeneralDiscreteDistribution" Collapsed="true">
+    <Position X="57" Y="15.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gAAAAACBAIAAAACgAAEAMAJgAAQCAAAEgAAAAIAAIhA=</HashCode>
+      <FileName>Distributions\Univariate\Discrete\GeneralDiscreteDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.PoissonDistribution" Collapsed="true">
+    <Position X="54" Y="17.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAACAAAEAMAIAAAACACAEgAAAAAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Discrete\PoissonDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.StepwiseLogisticRegressionAnalysis">
+    <Position X="37.5" Y="28.5" Width="2.75" />
+    <Members>
+      <Method Name="fit" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BEAIAAAAAoAjCAYJBACIAAQAEAEAACAAAAQgAAAAAAA=</HashCode>
+      <FileName>Analysis\StepwiseLogisticRegressionAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Nested" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.StepwiseLogisticRegressionModel">
+    <Position X="41.25" Y="27.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAEAA=</HashCode>
+      <FileName>Analysis\StepwiseLogisticRegressionAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.StepwiseLogisticRegressionModelCollection">
+    <Position X="41" Y="30.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Analysis\StepwiseLogisticRegressionAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.ForwardBackwardAlgorithm">
+    <Position X="1.75" Y="35.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Markov\ForwardBackwardAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Learning.BaumWelchLearning">
+    <Position X="1.75" Y="30.25" Width="2.25" />
+    <Members>
+      <Method Name="IUnsupervisedLearning.Run" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAAACBAAAIAAI=</HashCode>
+      <FileName>Models\Markov\Learning\BaumWelchLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.IndependentComponentAnalysis">
+    <Position X="29" Y="12" Width="3.5" />
+    <Members>
+      <Method Name="Adjust" Hidden="true" />
+      <Field Name="algorithm" Hidden="true" />
+      <Field Name="analysisMethod" Hidden="true" />
+      <Field Name="columnMeans" Hidden="true" />
+      <Field Name="columnStdDev" Hidden="true" />
+      <Field Name="componentCollection" Hidden="true" />
+      <Field Name="contrast" Hidden="true" />
+      <Method Name="convert" Hidden="true" />
+      <Method Name="deflation" Hidden="true" />
+      <Field Name="maxIterations" Hidden="true" />
+      <Field Name="mixingArray" Hidden="true" />
+      <Field Name="mixingMatrix" Hidden="true" />
+      <Field Name="overwriteSourceMatrix" Hidden="true" />
+      <Method Name="parallel" Hidden="true" />
+      <Field Name="resultMatrix" Hidden="true" />
+      <Field Name="revertArray" Hidden="true" />
+      <Field Name="revertMatrix" Hidden="true" />
+      <Field Name="sourceMatrix" Hidden="true" />
+      <Field Name="tolerance" Hidden="true" />
+      <Field Name="whiteningMatrix" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>DMBBICIAAgACgMyAIAQDAAcABAAAKAQAIAABAA0AQAA=</HashCode>
+      <FileName>Analysis\IndependentComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Algorithm" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Components" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.IndependentComponent">
+    <Position X="34" Y="11.5" Width="2.5" />
+    <Members>
+      <Field Name="analysis" Hidden="true" />
+      <Field Name="index" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAACAAAAAAAAAAABAAAAAAAAAEABAABAAQ=</HashCode>
+      <FileName>Analysis\IndependentComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Topology.Custom" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="36.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAQAAAAAAEAEAAAADAAAAAg=</HashCode>
+      <FileName>Models\Markov\Topology\Custom.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Topology.Ergodic" BaseTypeListCollapsed="true">
+    <Position X="24.25" Y="36.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAQAAAAABEAEAAQABAAAAAA=</HashCode>
+      <FileName>Models\Markov\Topology\Ergodic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Topology.Forward" BaseTypeListCollapsed="true">
+    <Position X="22" Y="36.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAQAAAAAJEAEACQABAAAAAA=</HashCode>
+      <FileName>Models\Markov\Topology\Forward.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.FDistribution" Collapsed="true">
+    <Position X="55.5" Y="26.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEgAAAAmAAAAABAIAAAQAEAAEgQAAKIAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\FDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Sparse.SparseCauchy" Collapsed="true">
+    <Position X="42.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Sparse\SparseCauchy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Sparse.SparseGaussian" Collapsed="true">
+    <Position X="38.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAgAAAAAAAIAABAAAABQAAAAAAABAAA=</HashCode>
+      <FileName>Kernels\Sparse\SparseGaussian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Sparse.SparseLaplacian" Collapsed="true">
+    <Position X="37" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAgAAAAAAAIAABAAAABQAAAAAAABAAA=</HashCode>
+      <FileName>Kernels\Sparse\SparseLaplacian.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Sparse.SparseLinear" Collapsed="true">
+    <Position X="35.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAhAAAAIAAAAAAA=</HashCode>
+      <FileName>Kernels\Sparse\SparseLinear.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Sparse.SparsePolynomial" Collapsed="true">
+    <Position X="40.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIQAAAAEAhAAAAIAAAAAAA=</HashCode>
+      <FileName>Kernels\Sparse\SparsePolynomial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Sparse.SparseSigmoid" Collapsed="true">
+    <Position X="44" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAIAAAAAAAgAAAAIAAABAAA=</HashCode>
+      <FileName>Kernels\Sparse\SparseSigmoid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.ContrastFunctions.Exponential" BaseTypeListCollapsed="true">
+    <Position X="29" Y="16.5" Width="2.25" />
+    <Members>
+      <Field Name="alpha" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Analysis\IndependentComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.ContrastFunctions.Logcosh" BaseTypeListCollapsed="true">
+    <Position X="31.5" Y="16.5" Width="2.25" />
+    <Members>
+      <Field Name="alpha" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Analysis\IndependentComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.ContrastFunctions.Kurtosis" BaseTypeListCollapsed="true">
+    <Position X="34" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Analysis\IndependentComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Fitting.MixtureOptions" BaseTypeListCollapsed="true">
+    <Position X="67.25" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\MixtureOptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Fitting.NormalOptions" BaseTypeListCollapsed="true">
+    <Position X="70" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\NormalOptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Analysis.PartialLeastSquaresVariables">
+    <Position X="16.75" Y="24.25" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAggAgAIAAAAAAAAQABAAAABAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Analysis\PartialLeastSquaresAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Moving.MovingCircularStatistics" BaseTypeListCollapsed="true">
+    <Position X="41.5" Y="17.25" Width="2" />
+    <Members>
+      <Field Name="cosines" Hidden="true" />
+      <Field Name="sines" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQAAAAAAAAAACAQABAAAAAAEgAAACABBCAA=</HashCode>
+      <FileName>Moving\MovingCircularStatistics.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Moving.MovingNormalStatistics" BaseTypeListCollapsed="true">
+    <Position X="44" Y="17.25" Width="2" />
+    <Members>
+      <Method Name="GetEnumerator" Hidden="true" />
+      <Field Name="squares" Hidden="true" />
+      <Method Name="System.Collections.IEnumerable.GetEnumerator" Hidden="true" />
+      <Field Name="values" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAABAAAAAAAAQBBAAEACAEgAAACABACAQ=</HashCode>
+      <FileName>Moving\MovingNormalStatistics.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Running.RunningNormalStatistics">
+    <Position X="39" Y="17.25" Width="2" />
+    <Members>
+      <Field Name="count" Hidden="true" />
+      <Field Name="lastMean" Hidden="true" />
+      <Field Name="lastSigma" Hidden="true" />
+      <Field Name="mean" Hidden="true" />
+      <Field Name="sigma" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACABAAAAAAABAQAAAAUgAAAABBACAA=</HashCode>
+      <FileName>Running\RunningNormalStatistics.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.VonMisesDistribution" Collapsed="true">
+    <Position X="58.25" Y="26.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAiAAAECBAIAgAQCAAAEgAAIIIAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\VonMisesDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Regression.MultinomialLogisticRegression">
+    <Position X="41" Y="23" Width="2.5" />
+    <Members>
+      <Field Name="categories" Hidden="true" />
+      <Field Name="coefficients" Hidden="true" />
+      <Field Name="inputs" Hidden="true" />
+      <Field Name="standardErrors" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAQAAACQIAYEEAAEBAAYAAABEAAABA=</HashCode>
+      <FileName>Models\Regression\Nonlinear\MultinomialLogisticRegression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.LognormalDistribution" Collapsed="true">
+    <Position X="55.5" Y="25.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAiAAAMAhAICAIQCAAAEgAgIIIAAJBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\LognormalDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.Codification" Collapsed="true">
+    <Position X="5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAACAAACAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Filters\Codification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.Discretization" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Discretization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.Equalization" Collapsed="true">
+    <Position X="14" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Equalization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Filters.LinearScaling" Collapsed="true">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\LinearScaling.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.Normalization" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Normalization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.PrincipalComponentProjection" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAIAAAAAAAKAAAAAAAAAAAAAAgBAAAAAA=</HashCode>
+      <FileName>Filters\PrincipalComponentProjection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.Projection" Collapsed="true">
+    <Position X="17.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Filters\Projection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Filters.Selection" Collapsed="true">
+    <Position X="19" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Selection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Multivariate.MultivariateNormalDistribution" Collapsed="true">
+    <Position X="65.5" Y="24.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAgAiAAIEABAAAAAQAAAAEgAgAIMAAIBA=</HashCode>
+      <FileName>Distributions\Multivariate\Continuous\MultivariateNormalDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Multivariate.MultivariateMixture&lt;T&gt;" Collapsed="true">
+    <Position X="69.25" Y="24.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIiAAIGARAAQAEQAAAAEgAAAIIAQIBA=</HashCode>
+      <FileName>Distributions\Multivariate\MultivariateMixture.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.HiddenMarkovModel&lt;TDistribution&gt;">
+    <Position X="7.25" Y="38.5" Width="2.75" />
+    <Members>
+      <Field Name="B" Hidden="true" />
+      <Method Name="convert" Hidden="true" />
+      <Field Name="dimension" Hidden="true" />
+      <Method Name="getMode" Hidden="true" />
+      <Field Name="multivariate" Hidden="true" />
+      <Method Name="predict" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAgiAAAAAAAgBAAAAAQAAAAAAASAEAAAg=</HashCode>
+      <FileName>Models\Markov\HiddenMarkovModel`1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Learning.BaumWelchLearning&lt;TDistribution&gt;">
+    <Position X="5" Y="30.25" Width="2.75" />
+    <Members>
+      <Field Name="fittingOptions" Hidden="true" />
+      <Field Name="model" Hidden="true" />
+      <Field Name="samples" Hidden="true" />
+      <Field Name="weights" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAARAAAAAAAgAAAAAAAAAAAACAAQAAAAACAAAAIABY=</HashCode>
+      <FileName>Models\Markov\Learning\BaumWelchLearning`1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.ConditionalRandomField&lt;T&gt;">
+    <Position X="58.75" Y="35.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEgAgIAAAAAAAAAAAAAAAAIAAAgAQAAAAAAABAAQABA=</HashCode>
+      <FileName>Models\Fields\ConditionalRandomField.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Function" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.ForwardBackwardAlgorithm">
+    <Position X="59.25" Y="41.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Fields\ForwardBackwardAlgorithm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.HiddenConditionalRandomField&lt;T&gt;">
+    <Position X="58.75" Y="38" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BEAAgIAAAAAAAAAAAAAAAAIAAAoAQAAAAAAAQAAQABA=</HashCode>
+      <FileName>Models\Fields\HiddenConditionalRandomField.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Function" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.FeatureBase&lt;T&gt;">
+    <Position X="56.25" Y="44.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAABAAAAAAEAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Fields\Features\Base\FeatureBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.EmissionFeature">
+    <Position X="63.5" Y="48" Width="1.5" />
+    <Members>
+      <Field Name="state" Hidden="true" />
+      <Field Name="symbol" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAIAAAAAAAAAAAAAAEAAAAACAAAAAAEAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\EmissionFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.InitialFeature&lt;T&gt;">
+    <Position X="47.75" Y="48" Width="1.5" />
+    <Members>
+      <Field Name="current" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAAAAiAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\InitialFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.MultivariateFirstMomentFeature">
+    <Position X="51.5" Y="48" Width="2.5" />
+    <Members>
+      <Field Name="dimension" Hidden="true" />
+      <Field Name="state" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAABACAAAAAAEAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\MultivariateFirstMomentFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.MultivariateSecondMomentFeature">
+    <Position X="56.5" Y="48" Width="2.75" />
+    <Members>
+      <Field Name="dimension" Hidden="true" />
+      <Field Name="state" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAABACAAAAAAEAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\MultivariateSecondMomentFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.OccupancyFeature&lt;T&gt;">
+    <Position X="59.5" Y="48" Width="1.75" />
+    <Members>
+      <Field Name="current" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAAAAiAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\OccupancyFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.OutputFeature&lt;T&gt;">
+    <Position X="61.5" Y="48" Width="1.75" />
+    <Members>
+      <Field Name="classSymbol" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAAAAAAAQBA=</HashCode>
+      <FileName>Models\Fields\Features\OutputFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.TransitionFeature&lt;T&gt;">
+    <Position X="65.25" Y="48" Width="1.75" />
+    <Members>
+      <Field Name="current" Hidden="true" />
+      <Field Name="previous" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAMAAAAAiAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\TransitionFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.FirstMomentFeature">
+    <Position X="49.5" Y="48" Width="1.75" />
+    <Members>
+      <Field Name="state" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAAAACAAAAAAEAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\UnivariateFirstMomentFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Features.SecondMomentFeature">
+    <Position X="54.25" Y="48" Width="2" />
+    <Members>
+      <Field Name="state" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAEAAAAACAAAAAAEAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\UnivariateSecondMomentFeature.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Functions.BasePotentialFunction&lt;T&gt;">
+    <Position X="35" Y="41" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAAAAAAAAIAAABAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Fields\Functions\Base\BasePotentialFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Functions.FactorPotential&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="65.75" Y="37" Width="3.25" />
+    <Members>
+      <Method Name="GetEnumerator" Hidden="true" />
+      <Method Name="System.Collections.IEnumerable.GetEnumerator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EGCAQAHABAAAABBAAAAAAAAAEABAAAAAAIEABAAAABA=</HashCode>
+      <FileName>Models\Fields\Functions\Clique Potentials\FactorPotential.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Learning.BaseHiddenConditionalRandomFieldLearning&lt;T&gt;">
+    <Position X="49.25" Y="36.5" Width="3.5" />
+    <Members>
+      <Field Name="error" Hidden="true" />
+      <Field Name="function" Hidden="true" />
+      <Field Name="inputs" Hidden="true" />
+      <Field Name="lnZx" Hidden="true" />
+      <Field Name="lnZxy" Hidden="true" />
+      <Field Name="logLikelihoods" Hidden="true" />
+      <Field Name="model" Hidden="true" />
+      <Field Name="outputs" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BQQgAAAAICBAAAABQgEAAgAAEAAAABAQAIggAAQIAAA=</HashCode>
+      <FileName>Models\Fields\Learning\Base\BaseHiddenConditionalRandomFieldLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Learning.ConjugateGradientHiddenLearning&lt;T&gt;">
+    <Position X="46.25" Y="41" Width="3" />
+    <Members>
+      <Field Name="cg" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAECAgEAAgAAAAIAAAIAAIAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Fields\Learning\ConjugateGradientHiddenLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Learning.QuasiNewtonHiddenLearning&lt;T&gt;">
+    <Position X="49.5" Y="41" Width="3" />
+    <Members>
+      <Field Name="lbfgs" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAI=</HashCode>
+      <FileName>Models\Fields\Learning\QuasiNewtonHiddenLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Learning.QuasiNewtonLearning&lt;T&gt;" BaseTypeListCollapsed="true">
+    <Position X="67.25" Y="42.5" Width="2" />
+    <Members>
+      <Method Name="gradient" Hidden="true" />
+      <Field Name="lbfgs" Hidden="true" />
+      <Field Name="model" Hidden="true" />
+      <Method Name="p" Hidden="true" />
+      <Method Name="partition" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAIAAI=</HashCode>
+      <FileName>Models\Fields\Learning\QuasiNewtonLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Learning.GradientDescentHiddenLearning&lt;T&gt;">
+    <Position X="52.75" Y="41" Width="3" />
+    <Members>
+      <Field Name="iterations" Hidden="true" />
+      <Field Name="learningRate" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAAgAAAAAEABAAEQgAABAAAAAIgAAAAAAAAACIAAAI=</HashCode>
+      <FileName>Models\Fields\Learning\GradientDescentHiddenLearning.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.BaseHiddenMarkovModel">
+    <Position X="5.5" Y="35" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAEgAAAEAAAAAAAAAAAAAAAEAAAADAAAAAA=</HashCode>
+      <FileName>Models\Markov\Base\BaseHiddenMarkovModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.HiddenMarkovClassifier&lt;TDistribution&gt;">
+    <Position X="16" Y="38.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Models\Markov\HiddenMarkovClassifier`1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.HiddenMarkovClassifier">
+    <Position X="12.75" Y="38.5" Width="2.75" />
+    <Members>
+      <Method Name="IHiddenMarkovClassifier.Compute" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAgIAAAABAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAA=</HashCode>
+      <FileName>Models\Markov\HiddenMarkovClassifier.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.BaseHiddenMarkovClassifier&lt;TModel&gt;">
+    <Position X="14.25" Y="34.75" Width="3" />
+    <Members>
+      <Field Name="classPriors" Hidden="true" />
+      <Field Name="models" Hidden="true" />
+      <Field Name="threshold" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAEAAAAACAAAAAAAIAAAACgAAAggAAAYAAA=</HashCode>
+      <FileName>Models\Markov\Base\BaseHiddenMarkovClassifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Learning.BaseBaumWelchLearning">
+    <Position X="3.25" Y="26" Width="2" />
+    <Members>
+      <Field Name="maxIterations" Hidden="true" />
+      <Field Name="model" Hidden="true" />
+      <Field Name="tolerance" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAQAIAAAACAAAAAAAAAAIIACAAAEAAAACAAAAIAAI=</HashCode>
+      <FileName>Models\Markov\Learning\Base\BaseBaumWelchLearning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Learning.BaseSequenceClassifierLearning&lt;TClassifier, TModel&gt;">
+    <Position X="10.25" Y="27.25" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAABAAAAAAAgAAQAAgI=</HashCode>
+      <FileName>Models\Markov\Learning\Base\BaseSequenceClassifierLearning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Learning.HiddenMarkovClassifierLearning">
+    <Position X="9" Y="31" Width="2.5" />
+    <Members>
+      <Method Name="createSmoothingKernel" Hidden="true" />
+      <Field Name="gaussianKernel" Hidden="true" />
+      <Field Name="smoothingKernelSize" Hidden="true" />
+      <Field Name="smoothingSigma" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQgAAAAAAAAAAAAAAAAAAAgAAAAgAAAEQAI=</HashCode>
+      <FileName>Models\Markov\Learning\HiddenMarkovClassifierLearning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Models.Markov.Learning.HiddenMarkovClassifierLearning&lt;TDistribution&gt;">
+    <Position X="12.5" Y="31" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAI=</HashCode>
+      <FileName>Models\Markov\Learning\HiddenMarkovClassifierLearning`1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Custom" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Custom.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Dirichlet" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAAAAABAAAAA=</HashCode>
+      <FileName>Kernels\Dirichlet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Hypersecant" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Kernels\Hypersecant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Precomputed" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACIAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Precomputed.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.Quadratic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="42.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAhAAAAIAAAAAAA=</HashCode>
+      <FileName>Kernels\Quadratic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.SquaredSinc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="44" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Kernels\SquaredSinc.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Kernels.SymmetricTriangle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Kernels\SymmetricTriangle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.BhapkarTest">
+    <Position X="93.75" Y="20.25" Width="1.75" />
+    <Members>
+      <Field Name="d" Hidden="true" />
+      <Field Name="distribution" Hidden="true" />
+      <Field Name="invS" Hidden="true" />
+      <Field Name="S" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAQIAEAAAAAAAAAAAECAQAAACAEAA=</HashCode>
+      <FileName>Testing\Contingency\BhapkarTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.BowkerTest">
+    <Position X="96.75" Y="20.25" Width="1.75" />
+    <Members>
+      <Field Name="distribution" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\Contingency\BowkerTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.KappaTest">
+    <Position X="96.75" Y="23.75" Width="2" />
+    <Members>
+      <Field Name="confidence" Hidden="true" />
+      <Field Name="k" Hidden="true" />
+      <Field Name="stdError" Hidden="true" />
+      <Field Name="variance" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAICAgAAAAIAAAAAAiAAAAIAAAAA=</HashCode>
+      <FileName>Testing\Contingency\KappaTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.McNemarTest">
+    <Position X="91.25" Y="23.75" Width="1.5" />
+    <Members>
+      <Field Name="distribution" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\Contingency\McNemarTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.StuartMaxwellTest">
+    <Position X="94" Y="23.75" Width="2" />
+    <Members>
+      <Field Name="d" Hidden="true" />
+      <Field Name="distribution" Hidden="true" />
+      <Field Name="invS" Hidden="true" />
+      <Field Name="S" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAQIAEAAAAAAAAAAAECAQAAACAEAA=</HashCode>
+      <FileName>Testing\Contingency\StuartMaxwellTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.TwoMatrixKappaTest">
+    <Position X="91.25" Y="20.25" Width="2" />
+    <Members>
+      <Field Name="confidence" Hidden="true" />
+      <Field Name="k" Hidden="true" />
+      <Field Name="k1" Hidden="true" />
+      <Field Name="k2" Hidden="true" />
+      <Field Name="stdError" Hidden="true" />
+      <Field Name="variance" Hidden="true" />
+      <Field Name="variance1" Hidden="true" />
+      <Field Name="variance2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAIAAgAAAAIAAAAAAiEAAAIBAAAA=</HashCode>
+      <FileName>Testing\Contingency\TwoMatrixKappaTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.FTest">
+    <Position X="84" Y="23.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\FTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.KolmogorovSmirnovTest">
+    <Position X="82.25" Y="26.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\KolmogorovSmirnovTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.AnovaSourceCollection">
+    <Position X="93" Y="31" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Testing\Multiple Samples\AnovaSourceCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Testing.AnovaVariationSource">
+    <Position X="91.75" Y="28.25" Width="2.75" />
+    <Members>
+      <Field Name="anova" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAQAAQAAgCAABABAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Testing\Multiple Samples\AnovaVariationSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Testing.OneWayAnova" BaseTypeListCollapsed="true">
+    <Position X="95.25" Y="29" Width="2.25" />
+    <Members>
+      <Field Name="Db" Hidden="true" />
+      <Field Name="Dt" Hidden="true" />
+      <Field Name="Dw" Hidden="true" />
+      <Field Name="groupCount" Hidden="true" />
+      <Method Name="initialize" Hidden="true" />
+      <Field Name="means" Hidden="true" />
+      <Field Name="MSb" Hidden="true" />
+      <Field Name="MSw" Hidden="true" />
+      <Field Name="Sb" Hidden="true" />
+      <Field Name="sizes" Hidden="true" />
+      <Field Name="St" Hidden="true" />
+      <Field Name="Sw" Hidden="true" />
+      <Field Name="totalMean" Hidden="true" />
+      <Field Name="totalSize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAMAAEAABAAgAAAAEAEAQgAAIAAABAAIAAABAAAAQAA=</HashCode>
+      <FileName>Testing\Multiple Samples\OneWayAnova.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Table" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.TwoWayAnova" BaseTypeListCollapsed="true">
+    <Position X="98.25" Y="29" Width="2.25" />
+    <Members>
+      <Field Name="aMean" Hidden="true" />
+      <Field Name="bMean" Hidden="true" />
+      <Field Name="cellMeans" Hidden="true" />
+      <Field Name="totalMean" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAEAAAQAAEQQAAAAAAQAAAEAAEAAAAAECA=</HashCode>
+      <FileName>Testing\Multiple Samples\TwoWayAnova.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Sources" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.TwoWayAnovaVariationSources">
+    <Position X="101.75" Y="29" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAMQAAAAIAAAAAAAAAQAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Testing\Multiple Samples\TwoWayAnova.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Testing.TTest">
+    <Position X="86.75" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\TTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.TwoSampleKolmogorovSmirnovTest">
+    <Position X="85.5" Y="26.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\TwoSample\TwoSampleKolmogorovSmirnovTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Testing.TwoSampleTTest">
+    <Position X="86.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\TwoSample\TwoSampleTTest.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Fitting.CauchyOptions" BaseTypeListCollapsed="true">
+    <Position X="71.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAEAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\CauchyOptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Fitting.GeneralDiscreteOptions" BaseTypeListCollapsed="true">
+    <Position X="73.75" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\GeneralDiscreteOptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Fitting.HypergeometricOptions" BaseTypeListCollapsed="true">
+    <Position X="70.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\HypergeometricOptions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Parameter" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Fitting.VonMisesOptions" BaseTypeListCollapsed="true">
+    <Position X="74" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\VonMisesOptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Multivariate.JointDistribution" Collapsed="true">
+    <Position X="68.5" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABAABAAACAAIAAMAAgAAAAAAAEgAAAAAAAIBA=</HashCode>
+      <FileName>Distributions\Multivariate\Discrete\JointDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Multivariate.Independent&lt;TDistribution&gt;" Collapsed="true">
+    <Position X="65.5" Y="25.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgICAAICABAAAAAQAAAAEgAAAIIAAIBA=</HashCode>
+      <FileName>Distributions\Multivariate\Independent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.CauchyDistribution" Collapsed="true">
+    <Position X="50.25" Y="27.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAIAhAICAIAAAAIEgAgIIEAAIBQ=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\CauchyDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.ContinuousUniformDistribution" Collapsed="true">
+    <Position X="55.5" Y="27.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAAAACAAAAAhAJAAIAAAAAkgQgAIAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\ContinuousUniformDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.EmpiricalDistribution" Collapsed="true">
+    <Position X="61" Y="25.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAEABAIAACQCAAAkgAQAIIAEIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\EmpiricalDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.ExponentialDistribution" Collapsed="true">
+    <Position X="55.5" Y="28.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAIAAAAiAAAACBAIAAAAAAAIEgAAAIAAAIBQ=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\ExponentialDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.GammaDistribution" Collapsed="true">
+    <Position X="53" Y="26.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAACAAAIABAICAAAAAAIEgAAIIEAAJBQ=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\GammaDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.InverseGaussianDistribution" Collapsed="true">
+    <Position X="58.25" Y="25.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAIAAAAAACAAAAABAIAAAQAAAIEgAAAIEAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\InverseGaussianDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.KolmogorovSmirnovDistribution" Collapsed="true">
+    <Position X="58.25" Y="27.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABBAIOAAQEABAIAAAAAQAAEgIAAIEAgIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\KolmogorovSmirnovDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.NakagamiDistribution" Collapsed="true">
+    <Position X="53" Y="27.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAABAAAAAACAAAAABAIAAAQCAIIEgAAIIIAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\NakagamiDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.NormalDistribution" Collapsed="true">
+    <Position X="50.25" Y="28.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAiEAAEAhAIABIQCAAAEgAwAIMAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\NormalDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.RayleighDistribution" Collapsed="true">
+    <Position X="53" Y="28.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAABAIAAAAAAAAUgAAAIAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\RayleighDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.TDistribution" Collapsed="true">
+    <Position X="61" Y="26.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAQAAABAIAAAAAAAAEgAAIIAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\TDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.WeibullDistribution" Collapsed="true">
+    <Position X="50.25" Y="26.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAABAIAAAAAAAAkgQAAIAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Continuous\WeibullDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.BinomialDistribution" Collapsed="true">
+    <Position X="57" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAgAAAMAIAAAAQAAAMgAAACAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Discrete\BinomialDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.DiscreteUniformDistribution" Collapsed="true">
+    <Position X="57" Y="17.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAACAAAAAAACAAAAAMAJAAAAAAAAkkQAAAAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Discrete\DiscreteUniformDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.GeometricDistribution" Collapsed="true">
+    <Position X="59.5" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAMAIAAAAQAAAEgEAAAAAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Discrete\GeometricDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Distributions.Univariate.HypergeometricDistribution" Collapsed="true">
+    <Position X="53.75" Y="16.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAACACAAAAAMAIAAAAAAAAEkgAAABAAIBA=</HashCode>
+      <FileName>Distributions\Univariate\Discrete\HypergeometricDistribution.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Functions.DiscreteMarkovClassifierFunction">
+    <Position X="28.75" Y="44" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Functions\DiscreteMarkovClassifierFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Functions.DiscreteMarkovModelFunction">
+    <Position X="31.5" Y="44" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Functions\DiscreteMarkovModelFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Functions.MultivariateNormalMarkovClassifierFunction">
+    <Position X="34" Y="44" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Functions\MultivariateNormalMarkovClassifierFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Functions.MultivariateNormalMarkovModelFunction">
+    <Position X="37.5" Y="44" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Functions\MultivariateNormalMarkovModelFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Statistics.Models.Fields.Functions.NormalMarkovClassifierFunction">
+    <Position X="40.75" Y="44" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Functions\NormalMarkovClassifierFunction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Accord.Statistics.Filters.IFilter">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Base\IFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Kernels.IKernel">
+    <Position X="41.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Base\IKernel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Kernels.IDistance">
+    <Position X="39.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Kernels\Base\IDistance.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Distributions.IDistribution">
+    <Position X="62.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAGAAAAAAAAAAAAAAAAAAAAAAAEAIAA=</HashCode>
+      <FileName>Distributions\IDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Distributions.IUnivariateDistribution">
+    <Position X="61.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIIAAAgAAAAAAAIAAAAAAAAEgAAAAAEAIAQ=</HashCode>
+      <FileName>Distributions\Univariate\Base\IUnivariateDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Distributions.IMultivariateDistribution">
+    <Position X="63.75" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAIAAAAAAAAAAQAAEgAAAAAAAAAQ=</HashCode>
+      <FileName>Distributions\Multivariate\Base\IMultivariateDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Regression.Linear.ILinearRegression">
+    <Position X="26" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Regression\Linear\ILinearRegression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Filters.IAutoConfigurableFilter">
+    <Position X="17.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Filters\Base\IFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Markov.IHiddenMarkovModel">
+    <Position X="9.25" Y="34.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAAAAAAAAAgAAAAAAAAAAAAAATAAAAAA=</HashCode>
+      <FileName>Models\Markov\Base\IHiddenMarkovModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Markov.Learning.ISupervisedLearning">
+    <Position X="7" Y="25.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Markov\Learning\Base\ISupervisedLearning.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Markov.Learning.IUnsupervisedLearning">
+    <Position X="7" Y="26.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Markov\Learning\Base\IUnsupervisedLearning.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Markov.Topology.ITopology">
+    <Position X="24.25" Y="34.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABAAAAAA=</HashCode>
+      <FileName>Models\Markov\Topology\ITopology.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Analysis.ContrastFunctions.IContrastFunction">
+    <Position X="33.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Analysis\IndependentComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Distributions.Fitting.IFittingOptions" Collapsed="true">
+    <Position X="70.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\Base\IFittingOptions.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Moving.IMovingStatistics">
+    <Position X="41.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Moving\IMovingStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Running.IRunningStatistics">
+    <Position X="41.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAEgAAAAABACAA=</HashCode>
+      <FileName>Running\IRunningStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Fields.Features.IFeature&lt;TObservation&gt;">
+    <Position X="63" Y="39.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAABAAAAAAEAAAAACAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Models\Fields\Features\Base\IFeature.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Fields.Functions.IPotentialFunction&lt;T&gt;">
+    <Position X="62.75" Y="37.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAAAAAAAAIAAABAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Models\Fields\Functions\Base\IPotentialFunction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Factors" />
+      <Property Name="Features" />
+    </ShowAsAssociation>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Fields.Learning.IConditionalRandomFieldLearning&lt;T&gt;">
+    <Position X="66.75" Y="41" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Fields\Learning\Base\IConditionalRandomFieldLearning.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Models.Fields.Learning.IHiddenConditionalRandomFieldLearning&lt;T&gt;">
+    <Position X="54" Y="36.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Models\Fields\Learning\Base\IHiddenConditionalRandomFieldLearning.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Testing.IHypothesisTest&lt;TDistribution&gt;">
+    <Position X="86.25" Y="14.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Testing\Base\IHypothesisTest.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Testing.IAnova">
+    <Position X="96.75" Y="27.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Testing\Multiple Samples\IAnova.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Distributions.IFittableDistribution&lt;TObservations, TOptions&gt;">
+    <Position X="57" Y="7" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\Base\IFittableDistribution.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Accord.Statistics.Distributions.IMixture&lt;TDistribution&gt;">
+    <Position X="57.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\IMixture.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Accord.Statistics.Analysis.PartialLeastSquaresAlgorithm">
+    <Position X="17" Y="18.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Analysis\PartialLeastSquaresAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Testing.Hypothesis">
+    <Position X="93" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Testing\Base\HypothesisTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Analysis.IndependentComponentAlgorithm">
+    <Position X="29.5" Y="10.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAA=</HashCode>
+      <FileName>Analysis\IndependentComponentAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Analysis.AnalysisMethod">
+    <Position X="17.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Analysis\Base\IAnalysis.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Testing.KolmogorovSmirnovTestHypothesis">
+    <Position X="82.25" Y="29" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAACAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Testing\KolmogorovSmirnovTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Testing.TwoWayAnovaModel">
+    <Position X="100" Y="27.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAABAAAA=</HashCode>
+      <FileName>Testing\Multiple Samples\TwoWayAnova.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Testing.TTestHypotesis">
+    <Position X="82.25" Y="18" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Testing\TTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Testing.TwoSampleKolmogorovSmirnovTestHypothesis">
+    <Position X="85.5" Y="29" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAIA=</HashCode>
+      <FileName>Testing\TwoSample\TwoSampleKolmogorovSmirnovTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Testing.TwoSampleTTestHypotesis">
+    <Position X="85" Y="18" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAACBAAAAAAAAAA=</HashCode>
+      <FileName>Testing\TwoSample\TwoSampleTTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Statistics.Distributions.Fitting.HypergeometricParameter">
+    <Position X="67.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Distributions\Fitting\HypergeometricOptions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Accord.Statistics.Models.Markov.Learning.ClassifierLearningAlgorithmConfiguration">
+    <Position X="10.5" Y="26" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Markov\Learning\Base\BaseHiddenMarkovClassifierLearning.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

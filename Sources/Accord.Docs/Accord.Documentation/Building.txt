@@ -1,0 +1,14 @@
+Building the documentation
+==========================
+
+In order to build the documentation project of Accord.NET,
+a few requisite programs should be previously installed:
+
+
+ - Sandcastle
+   http://sandcastle.codeplex.com 
+
+ - Sandcastle Help File Builder (SHFB)
+   http://shfb.codeplex.com/
+
+

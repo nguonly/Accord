@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Accord.Music.AccidentalEx">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Accidental.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.Composite">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.Chord">
+    <Position X="16.75" Y="1" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEgAAAAAAAIACAAAICAAAAAAAAQAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Harmony\Chord.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Notes" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Accord.Music.IntervalNameEx">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interval.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.DurationEx">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Melody\Duration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.NoteSign">
+    <Position X="17.75" Y="11.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAACAAAEAAAAAAAAAGAAAAAAgABgAAAAAAA=</HashCode>
+      <FileName>Melody\NoteSign.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Value" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Accord.Music.KeySignature">
+    <Position X="10.5" Y="7.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Notation\Signatures\KeySignature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.StandardKeySignature">
+    <Position X="10.5" Y="9.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEIAAAAAAAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>Notation\Signatures\StandardKeySignature.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Key" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Accord.Music.TimeSignature">
+    <Position X="17.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Notation\Signatures\TimeSignature.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BeatUnit" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Accord.Music.NoteNameEx">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAAAAAAAAABAAAEAAAAAAAA=</HashCode>
+      <FileName>Note.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.Notation.Score">
+    <Position X="2" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Notation\Score.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Staves" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Accord.Music.Melody.Position">
+    <Position X="13" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAAAAAAAAgAAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Notation\Position.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Notes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Accord.Music.Scales.Scale">
+    <Position X="22" Y="2.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACIAAIAAAAAAAAAAAAAAAAAgACAAQCA=</HashCode>
+      <FileName>Scales\Scale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.Sets.IntervalSet" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="5.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABACAAAAAAACAEAAAgAAAAAAAAAAAAAAAAAAhAAAA=</HashCode>
+      <FileName>Sets\IntervalSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Accord.Music.Sets.IntervalVector">
+    <Position X="4.75" Y="8" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAECAAAAADAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\IntervalVector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.Sets.NoteSet">
+    <Position X="20.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sets\NoteSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.Sets.PitchClassSet" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="6.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAACBAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAhAAAQ=</HashCode>
+      <FileName>Sets\PitchClassSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Music.Sets.PitchSet">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAQAEAAAAAAAAAAAAAAAAAAAhAAAA=</HashCode>
+      <FileName>Sets\PitchSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Accord.Music.Notation.Staff">
+    <Position X="5.5" Y="12" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAABAAAAAQg=</HashCode>
+      <FileName>Notation\Staffs\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Accord.Music.Notation.Measure">
+    <Position X="8.5" Y="12.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="Owner" Type="Accord.Music.Notation.Staff" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="13" />
+        <Point X="7" Y="13" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAACBAAkAAhAAAAAAAAAAAAAABAAIgAEQAAAACQA=</HashCode>
+      <FileName>Notation\Measure.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Previous" />
+      <Property Name="Next" />
+      <Property Name="Owner" />
+      <Property Name="Bar" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Locus" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Struct Name="Accord.Music.Interval" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAEAAAACQAAAREwAMAAAQBAAAAAAAAgIBAAAAAAAA=</HashCode>
+      <FileName>Interval.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Name" />
+      <Property Name="Quality" />
+      <Property Name="Class" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Accord.Music.IntervalClass">
+    <Position X="3.25" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IntervalClass.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Accord.Music.Key" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="9.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAAAAAAAQAwIEAAAAAAAAAAIAAAAAAAAEAAiE=</HashCode>
+      <FileName>Key.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Signature" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Accord.Music.Clef">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAQAAAAEIUABAABABAABAAA=</HashCode>
+      <FileName>Notation\Clef.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pitch" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Accord.Music.Note" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAACAAEQEwAMAIAQEQAgMAIIACAAAAAAAAiA=</HashCode>
+      <FileName>Note.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Name" />
+      <Property Name="Accidental" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Accord.Music.Pitch" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AQAiCAAAAAAAAAQEwEOAJgAEAIAAAIJAgABAAAEAAig=</HashCode>
+      <FileName>Pitch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Note" />
+      <Property Name="Class" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Accord.Music.PitchClass">
+    <Position X="13.5" Y="0.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAEAABAEwIEAIAAAAAAAAIIAAAAAAAAQAqA=</HashCode>
+      <FileName>PitchClass.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Accord.Music.Sets.IMusicalSet&lt;T&gt;">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhAAAA=</HashCode>
+      <FileName>Sets\MusicalSet.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Accord.Music.Accidental">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAEAEAgAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Accidental.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Music.IntervalName">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAAAAAAIAIAAAAgAAAAAAAAAAAYg=</HashCode>
+      <FileName>Interval.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Music.IntervalQuality">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQBAAAAAAAAAAAAAAAAAAgAAAAgBACAACA=</HashCode>
+      <FileName>Interval.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Music.Duration">
+    <Position X="21.75" Y="10.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAIAAAgQAAAIAAABAAAAIAACAAKAAA=</HashCode>
+      <FileName>Melody\Duration.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Music.NoteName">
+    <Position X="13.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvgEAAAA=</HashCode>
+      <FileName>Note.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Music.Notation.BarTypes">
+    <Position X="12.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAABAAIAAAAAAAAAAIACAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Notation\Measure.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Accord.Music.Scales.ScaleDegree">
+    <Position X="3" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAEAAAAAAAAAAAEAAAAQABAAAAAAACAACACAAA=</HashCode>
+      <FileName>Scales\ScaleDegree.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
